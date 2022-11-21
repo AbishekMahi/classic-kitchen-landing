@@ -10,8 +10,8 @@
     }
 
     .right .content {
-        height: 70vh;
-        padding: 2rem !important;
+        height: 100%;
+        padding: 3rem 2rem !important;
     }
 
     .middle {
@@ -26,5 +26,11 @@
 
     .middle p {
         font-size: 1.1rem;
+    }
+
+    footer .row {
+        padding: 1rem !important;
+        margin: 0 !important;
+        width: 100% !important;
     }
 }
