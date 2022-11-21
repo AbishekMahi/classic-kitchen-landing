@@ -5,6 +5,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .whatsapp {
+        font-size: 28px;
+    }
     .left .content {
         padding: 0rem !important;
     }
