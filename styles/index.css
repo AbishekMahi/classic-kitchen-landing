@@ -77,7 +77,6 @@ body {
 .right .content {
     background-color: rgb(245, 245, 245);
     height: 85vh;
-
     padding: 3rem !important;
     text-align: center;
     display: flex !important;
@@ -232,4 +231,19 @@ button:active {
     to {
         transform: translateY(-0.1em);
     }
+}
+
+.middle{
+    width: 100%;
+    padding: 5rem 25%;
+    text-align: center;
+}
+.middle h1{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.middle p{
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
 }
