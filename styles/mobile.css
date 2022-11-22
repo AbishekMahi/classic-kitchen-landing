@@ -8,6 +8,7 @@
     .whatsapp {
         font-size: 28px;
     }
+
     .left .content {
         padding: 0rem !important;
     }
@@ -31,9 +32,50 @@
         font-size: 1.1rem;
     }
 
+    .work {
+        padding: 3rem;
+        text-align: left;
+    }
+
+    .container {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .testhead {
+        font-size: 2rem;
+        margin-bottom: -4rem;
+    }
+
+    .slider__txt {
+        /* font-size: 22px; */
+        margin: auto 5%;
+        font-weight: bold;
+        font-family: 'Roboto';
+        line-height: 1.7;
+        color: #111;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        /* max-width: 750px; */
+    }
+
     footer .row {
         padding: 1rem !important;
         margin: 0 !important;
         width: 100% !important;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .c-no {
+        height: 100%;
+    }
+
+    .counter-Txt {
+        margin-top: 35px !important;
+    }
+
+    .margin-bot-35 {
+        margin-bottom: 35px;
     }
 }
