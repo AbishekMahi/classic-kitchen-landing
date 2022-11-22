@@ -2,6 +2,10 @@
     .middle {
         padding: 4rem 20%;
     }
+
+    .book-content {
+        padding: 5rem 15% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,7 +37,7 @@
     }
 
     .work {
-        padding: 3rem;
+        padding: 2rem;
         text-align: left;
     }
 
@@ -48,21 +52,21 @@
     }
 
     .slider__txt {
-        /* font-size: 22px; */
         margin: auto 5%;
-        font-weight: bold;
-        font-family: 'Roboto';
         line-height: 1.7;
         color: #111;
         margin-top: -20px;
         margin-bottom: 20px;
-        /* max-width: 750px; */
     }
 
     footer .row {
         padding: 1rem !important;
         margin: 0 !important;
         width: 100% !important;
+    }
+
+    .book-content {
+        padding: 5rem 5% !important;
     }
 }
 
