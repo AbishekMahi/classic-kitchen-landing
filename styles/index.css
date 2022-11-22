@@ -40,7 +40,7 @@ body {
     bottom: 35px;
 }
 
-#button {
+#back2top {
     display: inline-block;
     background-color: #FF9800;
     width: 60px;
@@ -57,7 +57,7 @@ body {
     z-index: 10;
 }
 
-#button::after {
+#back2top::after {
     content: "🠝";
     font-family: FontAwesome;
     font-weight: normal;
@@ -67,16 +67,16 @@ body {
     color: #fff;
 }
 
-#button:hover {
+#back2top:hover {
     cursor: pointer;
     background-color: #333;
 }
 
-#button:active {
+#back2top:active {
     background-color: #555;
 }
 
-#button.show {
+#back2top.show {
     opacity: 1;
     visibility: visible;
 }
