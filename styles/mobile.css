@@ -17,6 +17,10 @@
         padding: 0rem !important;
     }
 
+    .right {
+        border-top: rgb(192, 192, 192) 1px solid;
+    }
+
     .right .content {
         height: 100%;
         padding: 3rem 2rem !important;
@@ -24,7 +28,7 @@
 
     .middle {
         width: 100%;
-        padding: 4rem 2rem;
+        padding: 3rem 1.5rem;
         text-align: justify;
     }
 
@@ -33,7 +37,11 @@
     }
 
     .middle p {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .img-grid {
+        padding: 3rem 5%;
     }
 
     .work {
@@ -71,6 +79,11 @@
 
     .book-content {
         padding: 5rem 5% !important;
+    }
+
+    .btn-warning {
+        font-weight: 500 !important;
+        font-size: medium !important;
     }
 }
 

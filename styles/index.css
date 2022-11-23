@@ -325,7 +325,7 @@ button:active {
 
 .middle {
     width: 100%;
-    padding: 5rem 25%;
+    padding: 5rem 20%;
     text-align: center;
 }
 
@@ -338,6 +338,10 @@ button:active {
 .middle p {
     /* margin-bottom: 2rem; */
     font-size: 1.3rem;
+}
+
+.img-grid {
+    padding: 3rem 15%;
 }
 
 .work {
@@ -417,10 +421,6 @@ button:active {
     transform: scale(1);
     transition: .3s ease;
     background: rgba(255, 255, 255, 0);
-    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
-    /* backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px); */
-    /* border-radius: 10px; */
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -662,6 +662,15 @@ footer p a {
     right: -2.3em;
 }
 
+.test-top {
+    text-align: center;
+}
+
+.test-top h3 {
+    color: #FF9800;
+    font-weight: 600;
+}
+
 .testhead {
     font-weight: 600;
     font-size: 2.5rem;
@@ -843,6 +852,7 @@ quote {
     color: #fff !important;
     font-weight: 500 !important;
     font-size: larger !important;
+    margin-top: 1rem !important;
 }
 
 .btn-warning:hover {
