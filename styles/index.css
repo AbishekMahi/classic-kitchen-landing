@@ -105,9 +105,9 @@ body {
 }
 
 /* .left { */
-    /* background: url(https://classickitchen.in/wp-content/uploads/2022/01/CLSSK-3-2048x1448.png) no-repeat border-box; */
-    /* background-size: cover; */
-    /* animation: changeBg 12s infinite; */
+/* background: url(https://classickitchen.in/wp-content/uploads/2022/01/CLSSK-3-2048x1448.png) no-repeat border-box; */
+/* background-size: cover; */
+/* animation: changeBg 12s infinite; */
 /* } */
 
 @keyframes changeBg {
@@ -133,7 +133,7 @@ body {
 .left .content {
     color: white;
     height: 85vh;
-    background-color: #00000180;
+    background-color: #00000190;
     text-align: center;
     padding: 3rem !important;
     display: flex !important;
@@ -152,7 +152,10 @@ body {
 }
 
 .right .content {
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
+    /* background-color: #00000180; */
+    background-color: #00000190;
+    color: #fff;
     height: 85vh;
     padding: 3rem !important;
     text-align: center;
@@ -423,7 +426,7 @@ footer {
 }
 
 footer .footer {
-    padding: 5rem !important;
+    padding: 5rem 10% !important;
     margin: 0 !important;
     width: 100% !important;
 }
@@ -443,18 +446,15 @@ footer p a {
     color: white !important;
 }
 
+.foot-para {
+    margin-right: 2rem;
+}
+
 .last {
     text-align: center;
     padding: 1rem;
     margin-bottom: 0;
-}
-
-/*****Footer*****/
-#footer {
-    padding: 2% 6%;
-    color: #fff !important;
-    background: linear-gradient(#38363d 0%, #060016 100%) !important;
-    text-align: left;
+    border-top: #333 solid 2px;
 }
 
 .footer-row {
