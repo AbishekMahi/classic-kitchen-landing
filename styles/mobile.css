@@ -46,6 +46,10 @@
         width: 100% !important;
     }
 
+    .overlays p {
+        font-size: small !important;
+    }
+
     .testhead {
         font-size: 2rem;
         margin-bottom: -4rem;
