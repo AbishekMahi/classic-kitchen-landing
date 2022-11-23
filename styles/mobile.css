@@ -18,7 +18,7 @@
     }
 
     .right {
-        border-top: rgb(192, 192, 192) 1px solid;
+        border-top: rgba(202, 202, 202, 0.671) 1px solid;
     }
 
     .right .content {

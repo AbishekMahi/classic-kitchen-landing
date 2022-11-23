@@ -132,7 +132,7 @@ body {
 
 .left .content {
     color: white;
-    height: 85vh;
+    height: 90vh;
     background-color: #00000190;
     text-align: center;
     padding: 3rem !important;
@@ -156,7 +156,7 @@ body {
     /* background-color: #00000180; */
     background-color: #00000190;
     color: #fff;
-    height: 85vh;
+    height: 90vh;
     padding: 3rem !important;
     text-align: center;
     display: flex !important;
@@ -203,6 +203,11 @@ input {
 
 .content .btn:hover {
     background-color: #fa7e45 !important;
+}
+
+.thanks {
+    padding: 0;
+    width: 60%;
 }
 
 .slide-top {
@@ -337,7 +342,7 @@ button:active {
 
 .middle p {
     /* margin-bottom: 2rem; */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .img-grid {
