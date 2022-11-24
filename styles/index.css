@@ -629,7 +629,7 @@ footer p a {
     position: relative;
 }
 
-.ribbon:after,
+/* .ribbon:after, */
 .ribbon:before,
 .text:before,
 .text:after,
