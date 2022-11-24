@@ -330,7 +330,7 @@ button:active {
 
 .middle {
     width: 100%;
-    padding: 5rem 20%;
+    padding: 5rem 10%;
     text-align: center;
 }
 
@@ -342,7 +342,8 @@ button:active {
 
 .middle p {
     /* margin-bottom: 2rem; */
-    font-size: 1.2rem;
+    font-size: 1rem;
+    /* text-align: justify; */
 }
 
 .img-grid {
