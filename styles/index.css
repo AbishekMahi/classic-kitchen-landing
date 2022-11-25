@@ -10,6 +10,26 @@
     margin: -100px 0 0 -100px;
 }
 
+/*******   Scrollbar   *******/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(83, 83, 83, 0.5);
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(77, 77, 77, 0.76);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +62,7 @@ body {
     padding: 0 !important;
     border-radius: 100px;
     transition: 300ms;
+    margin-top: 10px !important;
 }
 
 .whatsapp:hover {
@@ -61,7 +82,7 @@ body {
         opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
-    margin-top: 20px !important;
+    /* margin-top: 10px !important; */
 }
 
 #back2top:hover {
@@ -83,7 +104,6 @@ body {
     background: url(https://classickitchen.in/wp-content/uploads/2022/01/CLSSK-4.png) no-repeat border-box;
     background-size: cover;
     background-color: #00000180;
-
     display: flex;
     align-items: center;
     color: #000 !important;
@@ -132,7 +152,7 @@ body {
 
 .left .content {
     color: white;
-    height: 90vh;
+    height: 100vh;
     background-color: #00000190;
     text-align: center;
     padding: 3rem !important;
@@ -142,13 +162,23 @@ body {
     align-items: center;
 }
 
-.content h1 {
+.left .content h1 {
     font-size: 3rem !important;
-    margin: 1.5rem;
+    margin: -2REM 1REM 1.5rem;
+    font-weight: 600 !important;
 }
 
-.content h2 {
-    font-size: 2rem !important;
+.left .content h2 {
+    font-size: 2.5rem !important;
+}
+
+.left .content h2 span {
+    color: #F06624;
+    font-weight: 700 !important;
+}
+
+.left .content p {
+    font-size: 1.5rem !important;
 }
 
 .right .content {
@@ -156,7 +186,7 @@ body {
     /* background-color: #00000180; */
     background-color: #00000190;
     color: #fff;
-    height: 90vh;
+    height: 100vh;
     padding: 3rem !important;
     text-align: center;
     display: flex !important;

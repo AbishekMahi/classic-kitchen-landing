@@ -15,6 +15,26 @@
 
     .left .content {
         padding: 0rem !important;
+        height: 100vh;
+    }
+
+    .left .content h1 {
+        font-size: 3rem !important;
+        margin: -1REM 1REM 1.5rem;
+        font-weight: 600 !important;
+    }
+
+    .left .content h2 {
+        font-size: 2rem !important;
+    }
+
+    .left .content h2 span {
+        color: #F06624;
+        font-weight: 700 !important;
+    }
+
+    .left .content p {
+        font-size: 1rem !important;
     }
 
     .right {
