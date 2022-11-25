@@ -162,6 +162,12 @@ body {
     align-items: center;
 }
 
+.years {
+    height: 250px;
+}
+.topicon{
+    height: 100px;
+}
 .left .content h1 {
     font-size: 3rem !important;
     margin: -2REM 1REM 1.5rem;
