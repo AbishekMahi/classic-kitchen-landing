@@ -8,6 +8,16 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .call-btn {
+        display: none !important;
+    }
+
+    .call-btn1 {
+        display: block !important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .whatsapp {
         font-size: 28px;

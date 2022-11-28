@@ -166,12 +166,35 @@ body {
     height: 250px;
 }
 
-.topicon {
+.topnav {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    width: 100%;
+    top: 10px;
+}
+
+.toplogo {
     height: 90px;
     /* width: 100px; */
-    top: 10px;
-    left: 10px;
+}
+
+.call-btn {
+    margin-left: 30% !important;
+    color: #fff !important;
+    background-color: #F06624 !important;
+    border-color: #F06624 !important;
+}
+
+.call-btn1 {
+    display: none !important;
+    margin-bottom: 2rem !important;
+    color: #fff !important;
+    background-color: #F06624 !important;
+    border-color: #F06624 !important;
 }
 
 .left .content h1 {
@@ -233,20 +256,13 @@ form {
 
 input {
     border-radius: 5px !important;
-    padding: 10px !important;
+    /* padding: 10px !important; */
 }
 
 .content .btn {
     padding: 12px 20px !important;
     /* margin-top: 20px !important; */
-    background-color: #F06624 !important;
-    border-color: #F06624 !important;
-}
 
-.call-btn {
-    width: 100% !important;
-    margin: 0 0px 20px !important;
-    color: #fff !important;
 }
 
 .content .btn:hover {
@@ -327,7 +343,7 @@ button {
     font-size: 20px;
     background: #F06624;
     color: white;
-    margin-top: 2em !important;
+    /* margin-top: 2em !important; */
     padding: 0.7em 1em;
     padding-left: 0.9em;
     display: flex;
