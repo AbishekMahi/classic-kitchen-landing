@@ -134,7 +134,6 @@ body {
 
     0%,
     100% {
-<<<<<<< HEAD
         background-image: url("https://i.postimg.cc/8z0KkPQV/CLSSK-1.jpg");
     }
 
@@ -148,21 +147,6 @@ body {
 
     75% {
         background-image: url("https://i.postimg.cc/NFDD3Q7S/CLSSK-4.jpg");
-=======
-        background-image: url("images/CLSSK-3.jpg");
-    }
-
-    25% {
-        background-image: url("images/CLSSK-2.jpg");
-    }
-
-    50% {
-        background-image: url("images/CLSSK-1.jpg");
-    }
-
-    75% {
-        background-image: url("images/CLSSK-4.jpg");
->>>>>>> a4879db346d00b10ce9af2be26278a8f3c964d44
     }
 }
 
