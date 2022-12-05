@@ -134,19 +134,19 @@ body {
 
     0%,
     100% {
-        background-image: url("https://classickitchen.in/wp-content/uploads/2022/01/CLSSK-3-2048x1448.png");
+        background-image: url("/images/CLSSK-3.jpg");
     }
 
     25% {
-        background-image: url("https://classickitchen.in/wp-content/uploads/2022/01/spacious-grey-living-room-interior-2XERHJN-1.jpg");
+        background-image: url("/images/CLSSK-2.jpg");
     }
 
     50% {
-        background-image: url("https://classickitchen.in/wp-content/uploads/2022/01/s9-scaled-1.jpg");
+        background-image: url("/images/CLSSK-1.jpg");
     }
 
     75% {
-        background-image: url("https://classickitchen.in/wp-content/uploads/2022/01/3d-rendering-interior-and-exterior-design.jpg");
+        background-image: url("/images/CLSSK-4.jpg");
     }
 }
 
