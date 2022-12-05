@@ -134,19 +134,19 @@ body {
 
     0%,
     100% {
-        background-image: url("/images/CLSSK-3.jpg");
+        background-image: url("images/CLSSK-3.jpg");
     }
 
     25% {
-        background-image: url("/images/CLSSK-2.jpg");
+        background-image: url("images/CLSSK-2.jpg");
     }
 
     50% {
-        background-image: url("/images/CLSSK-1.jpg");
+        background-image: url("images/CLSSK-1.jpg");
     }
 
     75% {
-        background-image: url("/images/CLSSK-4.jpg");
+        background-image: url("images/CLSSK-4.jpg");
     }
 }
 
