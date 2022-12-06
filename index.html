@@ -48,15 +48,17 @@
         }(document, 'script', 'adtarbo-js'));
     </script>
     <!-- End of ADTARBO JS -->
+
+    <!-- old tags -->
     <!-- Event snippet for Classickitchen Submit lead form conversion page -->
-    <script>
+    <!-- <script>
         gtag('event', 'conversion', {
             'send_to': 'AW-937207093/HY6PCOnb94MYELXK8r4D'
         });
-    </script>
+    </script> -->
 
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -71,9 +73,37 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-5LXLK82');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-937207093"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-937207093');
+</script>
+<!-- Event snippet for Classickitchen Submit lead form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+    function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-937207093/HY6PCOnb94MYELXK8r4D',
+            'event_callback': callback
+        });
+        return false;
+    }
+</script>
 
 <body onload="loader()">
     <!-- Google Tag Manager (noscript) -->
@@ -237,7 +267,9 @@
                                     </select>
                                 </div> -->
                                 <div class="full">
-                                    <button class="slide-top" id="button subbtn" type="submit" onclick="myFunction()">
+                                    <button class="slide-top" id="button subbtn" type="submit"
+                                        onmouseover="myFunction()" >
+                                        <!-- onclick="gtag_report_conversion()" -->
                                         <div class="svg-wrapper-1">
                                             <div class="svg-wrapper">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
@@ -268,9 +300,6 @@
                                         function myFunction() {
                                             var x = document.getElementById("name").value;
                                             document.getElementById("demo").innerHTML = x;
-                                            // gtag('event', 'conversion', {
-                                            //     'send_to': 'AW-937207093/HY6PCOnb94MYELXK8r4D'
-                                            // });
                                         }
                                     </script>
                                     <br> Your form submitted succesfully.<br> We will reach you soon.
