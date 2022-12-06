@@ -48,7 +48,36 @@
         }(document, 'script', 'adtarbo-js'));
     </script>
     <!-- End of ADTARBO JS -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-937207093"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-937207093');
+    </script>
+    <!-- Event snippet for Classickitchen Submit lead form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-937207093/HY6PCOnb94MYELXK8r4D',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
+</head>
     <!-- old tags -->
     <!-- Event snippet for Classickitchen Submit lead form conversion page -->
     <!-- <script>
@@ -75,36 +104,6 @@
         })(window, document, 'script', 'dataLayer', 'GTM-5LXLK82');
     </script> -->
     <!-- End Google Tag Manager -->
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-937207093"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-937207093');
-</script>
-<!-- Event snippet for Classickitchen Submit lead form conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-    function gtag_report_conversion(url) {
-        var callback = function () {
-            if (typeof (url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-937207093/HY6PCOnb94MYELXK8r4D',
-            'event_callback': callback
-        });
-        return false;
-    }
-</script>
-
 <body onload="loader()">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LXLK82" height="0" width="0"
@@ -268,7 +267,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                                 </div> -->
                                 <div class="full">
                                     <button class="slide-top" id="button subbtn" type="submit"
-                                        onmouseover="myFunction()" >
+                                        onmouseover="myFunction()">
                                         <!-- onclick="gtag_report_conversion()" -->
                                         <div class="svg-wrapper-1">
                                             <div class="svg-wrapper">
